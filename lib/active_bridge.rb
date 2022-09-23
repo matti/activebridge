@@ -1,8 +1,6 @@
 # frozen_string_literal: true
 
 require_relative "active_bridge/version"
+require_relative "active_bridge/throttle"
 
-module ActiveBridge
-  class Error < StandardError; end
-  # Your code goes here...
-end
+include ActiveBridge
