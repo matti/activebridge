@@ -2,5 +2,6 @@
 
 ```ruby
 require 'activebridge'
-include ActiveBridge
 ```
+
+see [e2e/](e2e/)
