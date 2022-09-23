@@ -1,7 +1,6 @@
 require_relative "../lib/active_bridge"
 
-
-5.times do
+3.times do
   started_at = Time.now
 
   sleep amount = rand

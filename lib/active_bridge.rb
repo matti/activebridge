@@ -2,5 +2,6 @@
 
 require_relative "active_bridge/version"
 require_relative "active_bridge/throttle"
+require_relative "active_bridge/execute"
 
 include ActiveBridge
